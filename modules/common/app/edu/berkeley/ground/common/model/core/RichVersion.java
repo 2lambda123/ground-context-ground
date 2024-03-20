@@ -68,7 +68,7 @@ public class RichVersion extends Version {
       this.structureVersionId = structureVersionId;
     }
 
-    if (reference == null || reference.equals("null")) {
+    if (reference == null || "null".equals(reference)) {
       this.reference = null;
     } else {
       this.reference = reference;
